@@ -88,3 +88,14 @@ h2:hover {
 #imagenPremio:active {
   transform: scale(1.1);
 }
+
+/*Media Queries*/
+@media (max-width: 500px) {
+  body {
+    font-size: smaller;
+  }
+  #imagenPremio {
+    width: 50%;
+    height: fit-content;
+  }
+}
